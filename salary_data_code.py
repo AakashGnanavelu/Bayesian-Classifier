@@ -8,8 +8,8 @@ Created on Thu Feb 18 12:25:41 2021
 import pandas as pd
 import numpy as np
 
-data_train = pd.read_csv(r"C:\Users\Aakash\Desktop\AAKASH\Coding Stuff\Full Data Science\Bayesian Classifier\Assginment\train.csv")
-data_test = pd.read_csv(r"C:\Users\Aakash\Desktop\AAKASH\Coding Stuff\Full Data Science\Bayesian Classifier\Assginment\test.csv")
+data_train = pd.read_csv("train.csv")
+data_test = pd.read_csv("test.csv")
 
 data = data_train
 data = data.append(data_test)
